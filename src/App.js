@@ -48,7 +48,6 @@ class App extends Component {
             exact
             path={`/shop/:categoryId`}
             render={(props) => {
-              console.log(props);
               return this.props.collections ? (
                 <CategoryPage {...props} />
               ) : (
