@@ -6,7 +6,6 @@ const CategoryPage = ({ match, collections }) => {
   const data = collections.find(
     (data) => data.title === match.params.categoryId
   );
-  console.log(data);
   const { ...otherProps } = data;
   return (
     <div>

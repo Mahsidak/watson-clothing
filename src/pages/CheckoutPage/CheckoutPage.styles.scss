@@ -1,5 +1,5 @@
 .checkout-page {
-  width: 55%;
+  width: 80%;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -15,10 +15,12 @@
 
     .header-block {
       text-transform: capitalize;
+      display: flex;
+      justify-content: center;
       width: 23%;
 
       &:last-child {
-        width: 8%;
+        width: 23%;
       }
     }
   }
@@ -37,6 +39,7 @@
   padding: 15px 0;
   font-size: 20px;
   align-items: center;
+  justify-content: center;
 
   .image-container {
     width: 23%;
@@ -64,7 +67,7 @@
   }
 
   .remove-button {
-    padding-left: 12px;
+    //padding-left: 12px;
     cursor: pointer;
   }
 }
